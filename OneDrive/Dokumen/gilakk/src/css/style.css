@@ -1,6 +1,6 @@
 @font-face {
     font-family:'Poppins' ;
-    src: url(/study-group-5/asset/Poppins/Poppins-Regular.ttf);
+    src: url(/asset/Poppins/Poppins-Regular.ttf);
 }
 
 *{
@@ -10,20 +10,12 @@
 body{
    margin: 0;
    padding: 0;
-   background-color: white;
 }
-
-.header{
-    width: 100%;
-    position: fixed;
-}
-
 header{
     width: 100%;
     height: 67px;
     display: flex;
     background-color: #bb1724;  
-    
 }
 header nav {
     display: flex;
@@ -61,15 +53,12 @@ header nav ul li:hover{
 header nav ul .li2{
     display: flex;
     gap: 10px;
-    font-weight: bold;  
-    margin-left: 20px   ;
+    font-weight: bold;
 }
 
-header .nav1 .u1 .Gaya{
+header nav ul .Gaya{
     font-weight: bold;
     color: white;
-    gap: 200px;
-
 }
 header nav ul .Gaya2{
     font-weight: bold;
@@ -84,7 +73,7 @@ header nav .img1{
     margin-bottom: 20px;
 }
 
-header nav .button1{
+header nav ul .button1{
     width: 160px;
     height: 31px;
     background-color: transparent;
@@ -97,66 +86,14 @@ header nav .button1{
     margin-left: 240px;
 }
 
-header nav button{
+header nav ul:hover{
+    transition: all .5s ease-in-out;
+    color: white;
+    display: flex;
+}
+
+header nav ul button{
     color: white;
     font-size: 11px;
     font-family: 'Poppins';
-}
-
-
-.header2{
-    width: 100%;
-    height: 70px;
-    display: flex;
-    background-color: #ffffff;
-    box-shadow: black;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
-
-.header2 img{
-    gap: 20px;
-    margin-left: 400px;
-}
-
-.header2 .img2 {
-    width: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.header2 nav{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.header2 nav ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 350px;
-    gap: 40px;
-}
-
-.header2 nav ul .li3{
-    font-weight: bold;
-    color: #bb1724;
-}
-
-
-.header2 nav ul li{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgba(15, 14, 14, 0.668);
-    font-size: 13.5px;
-    font-weight: bold;
-    gap: 20px;
-}
-
-.header2 nav ul li:hover{
-    transition: all .5s ease-in-out;
-    color: #bb1724;
 }
