@@ -1,6 +1,6 @@
 @font-face {
     font-family:'Poppins' ;
-    src: url(/asset/Poppins/Poppins-Regular.ttf);
+    src: url(/study-group-5/asset/Poppins/Poppins-Regular.ttf);
 }
 
 *{
@@ -96,4 +96,49 @@ header nav ul button{
     color: white;
     font-size: 11px;
     font-family: 'Poppins';
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: #b71c1c;
+  color: white;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.btn-wrapper {
+  display: flex;
+  align-items: center; 
+}
+
+.alfacare {
+  display: flex;
+  align-items: flex-end; 
+}
+
+.alfacare img {
+  height: 30px;
+}
+
+.btn-contact {
+  border: 1px solid white;
+  padding: 6px 12px;
+  border-radius: 5px;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  
+}
+
+.btn-contact:hover {
+  background: white;
+  color: #b71c1c;
 }
