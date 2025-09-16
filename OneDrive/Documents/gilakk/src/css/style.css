@@ -86,11 +86,11 @@ header nav .button1{
     margin-left: 240px;
 }
 
-header nav :hover{
-    transition: all .5s ease-in-out;
-    color: white;
-    display: flex;
-}
+    /* header nav :hover{
+        transition: all .5s ease-in-out;
+        color: white;
+        display: flex;
+    } */
 
 header nav button{
     color: white;
