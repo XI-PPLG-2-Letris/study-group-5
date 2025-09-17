@@ -10,12 +10,12 @@
 body{
    margin: 0;
    padding: 0;
-   background-color: white;
+   background-color: aliceblue;
 }
 
-.header{
-    width: 100%;
+.header-fixed{
     position: fixed;
+     width: 100%;
 }
 
 header{
@@ -111,6 +111,7 @@ header nav button{
     background-color: #ffffff;
     box-shadow: black;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-bottom: .75rem solid #ffc604;
 }
 
 .header2 img{
