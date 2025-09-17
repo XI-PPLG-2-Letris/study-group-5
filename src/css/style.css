@@ -12,12 +12,20 @@ body{
    padding: 0;
    background-color: white;
 }
+
 header{
     width: 100%;
     height: 67px;
     display: flex;
     background-color: #bb1724;  
 }
+
+.header-fixed{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
 header nav {
     display: flex;
     justify-content: left;
@@ -41,7 +49,7 @@ header nav ul li{
     font-weight:500;
 }
 
-header nav ul .Digital{
+header nav ul div.Digital{
     color: rgba(204, 202, 202, 0.63);
 
 }
@@ -153,3 +161,5 @@ header nav button{
     transition: all .5s ease-in-out;
     color: #bb1724;
 }
+
+
