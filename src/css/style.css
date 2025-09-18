@@ -191,10 +191,9 @@ main{
     margin-top: 2.8 ;
     height: 57vh;
     width: 100%; 
-    background-color: rgb(255, 255, 255);
     position: absolute; 
     z-index: 1000;      
-    background: rgb(255, 255, 255);
+    background-image: linear-gradient(180deg, #f8f9fb 60%, #fff);
     border-bottom: .75rem solid #ffc604;
     border-radius: 0vh 0vh 15vh 0vh;
 
@@ -268,21 +267,21 @@ main{
     justify-content: center;
     align-items:end;
     width: 25%;
-    background-color: #ffffff;
+    background-color: linear-gradient(180deg, #f8f9fb 60%, #fff);
     margin-left: 25vh;
 }
 
 .heading2{
     margin-top: 50px;
     padding: 3px;
-    background-color: #ffffff;
+    background-color: linear-gradient(180deg, #f8f9fb 60%, #fff);
     margin-left: 2vh;
 }
 
 .heading3{
     margin-top: 20px;
     padding: 5px;
-    background-color: #ffffff;
+    background-color: linear-gradient(180deg, #f8f9fb 60%, #fff);
     margin-left: 2vh;
 }
 
