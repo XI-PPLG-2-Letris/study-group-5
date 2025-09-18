@@ -49,7 +49,7 @@ header nav ul{
     display: flex;
     margin: 21.5px;
     margin-left: 195px;
-    gap: 20px;  
+    gap: 20px;
 }
 
 header nav ul li{
@@ -166,10 +166,10 @@ header nav button{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgba(15, 14, 14, 0.668);
-    font-size: 13.5px;
+    color: rgba(4, 4, 4, 0.668);
+    font-size: 14px;
     font-weight: bold;
-    gap: 50px;
+    gap: 45px;
 }
 
 .header2 nav ul li a:hover{
@@ -189,14 +189,14 @@ main{
     display:none;
     justify-content: space-between; 
     margin-top: 2.8 ;
-    height: 50vh;
+    height: 57vh;
     width: 100%; 
     background-color: rgb(255, 255, 255);
     position: absolute; 
     z-index: 1000;      
     background: rgb(255, 255, 255);
     border-bottom: .75rem solid #ffc604;
-    border-radius: 0vh 0vh 20vh 0vh;
+    border-radius: 0vh 0vh 15vh 0vh;
 
 
 }
@@ -217,29 +217,73 @@ main{
 #item-p{
     font-size: 2vh;
     padding: 10px;
+    color: #717070;
 }
+
+#item-a{
+   display: block;
+   margin: 20px;     
+   font-size: 2vh;
+   transition: color 0.6s ease, transform 0.6s ease; /* animasi halus */
+}
+
+
+#item-b{
+    display: block;
+    margin: 20px;
+    font-size: 15px;
+}
+
+#item-a:hover{
+    color: #bb1724;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+
+#item-b:hover{
+    color: #bb1724;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+    transform: translateX(10px)
+}
+
 
 .div-1{
     display: flex;
 }
 
+.card-1{
+    width: 20vh;
+    height: 200px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #bb1724;
+    align-items:flex-start;
+    border-radius: 8vh 0vh 0vh 0vh;
+}
+
 .heading{
-    display: block  ;
+    display: block;
     margin-top: 50px;
     justify-content: center;
-    align-items: center;
-    width: 27%;
+    align-items:end;
+    width: 25%;
     background-color: #ffffff;
     margin-left: 25vh;
 }
+
 .heading2{
-    display: block  ;
     margin-top: 50px;
-    justify-content: center;
-    align-items: center;
-    width: 27%;
+    padding: 3px;
     background-color: #ffffff;
-    margin-left: 25vh;
+    margin-left: 2vh;
+}
+
+.heading3{
+    margin-top: 20px;
+    padding: 5px;
+    background-color: #ffffff;
+    margin-left: 2vh;
 }
 
 .a1{
@@ -261,3 +305,4 @@ main{
   z-index: 1;
   width: 200px;
 }
+
