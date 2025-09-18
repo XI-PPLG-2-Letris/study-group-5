@@ -61,6 +61,7 @@ header nav ul li{
     font-weight:500;
 }
 
+
 header nav ul .Digital{
     color: rgba(204, 202, 202, 0.63);
 
@@ -260,5 +261,3 @@ main{
   z-index: 1;
   width: 200px;
 }
-
-
