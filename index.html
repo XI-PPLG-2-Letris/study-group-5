@@ -3,63 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/study-group-5/OneDrive/Documents/gilakk/src/css/style.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="shortcut icon" href="./asset/Poppins/logo-alfa-removebg-preview.png">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> 
     <title>Alfamart, Minimarket Indonesia - Belanja puas dengan pas</title>
 </head>
 <body>
-    <div class="header-fixed">
-    <header class="header1">
-    <nav>
-        <ul>
-            <li>Alfamart</li>
-            <li>MItra Bussiness</li>
-            <li class="Digital">Digital Bussiness</li>
-        </ul>
-    </nav>
-    <nav class="nav1">
-        <ul class="u1">
-            <li class="button1">
-            <button>📞Hubungi Kami</button></li>
-            <div class="alfacare">
-                <img class="img1" src="/study-group-5/asset/img/alfacare.png" alt="" height="30"></div>
-            <div class="li2">
-                <li class="Gaya">ID</li>
-                <li class="Gaya2">EN</li>
+    <div cleas="head">
+        <div class="header-fixed">
+            <header>
+                <nav>
+                    <ul>
+                        <li style="cursor: pointer; user-select: none;">Alfamart</li>
+                        <li style="cursor:pointer; user-select: none;">MItra Bussiness</li>
+                        <li style="cursor: pointer; user-select: none;" class="Digital">Digital Bussiness</li>
+                    </ul>
+                    <ul class="u1">
+                        <li class="button1">
+                        <button>Hubungi Kami </button>
+                        </li>
+                        <div class="alfacare">
+                         <img class="img1" src="/study-group-5/asset/img/alfacare.png" alt="" height="30">
+                    </div>
+                    <div class="li2">
+                        <li class="Gaya" class="text-white">ID</li>
+                        <li class="Gaya2" class="text-white">EN</li>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+        
+        <div class="header2">
+            <div class="img2">
+                <img src="/study-group-5/asset/img/logo_alfamart_transparent.png" width="150" alt="">
             </div>
-        </ul>
-    </nav>
-    </header>
-    <div class="header2">
-        <div class="img2">
-        <img src="/study-group-5/asset/img/logo_alfamart_transparent.png" alt="">
-        </div>
-        <nav>
+            <nav>
             <ul>
-                <li class="li3">Beranda</li>
-                <li>Promo & Program</li>
-                <li>Keanggotaan</li>
-                <li>Produk & Layanan Digital</li>
-                <li>Berita</li>
-                <li>Corporate</li>
-            </ul>
+                <li>
+                    <a href="index.html" style="cursor: pointer;" class="li3">Beranda</a>
+                    <a id="toggle2" style="cursor: pointer;">Promo & Program</a>
+                    <a id="toggle3" style="cursor: pointer;">Keanggotaan</a>
+                    <a id="toggle4" style="cursor: pointer;">Produk & Layanan Digital</a>
+                    <a id="toggle" style="cursor: pointer;">Berita</a>
+                    <a id="toggle5" style="cursor: pointer;">Corporate</a>
+                </li>
+            </ul> 
         </nav>
-    </div>    
+    </div>
+    <div id="menu2" class="menu">
+        <div class="div-1">
+             <div class="heading">
+        <h1 id="item-h1">Promo & Program</h1>
+        <p id="item-p">Dapatkan promo kami dan bergabunglah dengan program dari Alfamart setiap harinya</p>
+    </div>
+    <div class="heading">
+        <h1 id="item-h1">Promo & Program</h1>
+        <p id="item-p">Dapatkan promo kami dan bergabunglah dengan program dari Alfamart setiap harinya</p>
+    </div>
+        </div>
     </div>
 
-    <main>
-        <div class="text">
-            <h2>KITA</h2>
-        </div>
-        <div class="img-main">
-                <img src="/study-group-5/asset/img/image.png">
-                <img src="/study-group-5/asset/img/image copy.png"alt="">
-                <img src="/study-group-5/asset/img/image copy 2.png" alt="">
-                <img src="/study-group-5/asset/img/image copy 3.png" alt="">
-                <img src="/study-group-5/asset/img/image copy 4.png" alt="">
-                <img src="/study-group-5/asset/img/image copy 5.png" alt="">
-                <img src="/study-group-5/asset/img/image copy 6.png" alt="">
-        </div>
-    </main>
+    <div id="menu3" class="menu">
+        <div class="heading">
+        <h1 id="item-h1">Keanggotaan</h1>
+        <p id="item-p">Daftarkan diri kamu untuk menjadi member Alfamart dan dapatkan penawaran - penawaran istimewa setiap hari</p>
+    </div>
+    </div>
+
+    <div id="menu4" class="menu">
+        <div class="heading">
+        <h1 id="item-h1">Keanggotaan</h1>
+        <p id="item-p">Temukan berbagai produk-produk baru , voucher elektronik, layanan elektronik, transfer dana, tiket, dan layanan lainnya dari Alfamart</p>
+    </div>
+    </div>
+
+    <div id="menu5" class="menu">
+        <div class="heading">
+        <h1 id="item-h1">Corporate</h1>
+        <p id="item-p">-</p>
+    </div>
+    </div>  
+
+</div>
+</div>
+
+<script src="/study-group-5/src/js/script.js"></script>
 </body>
 </html>
+
