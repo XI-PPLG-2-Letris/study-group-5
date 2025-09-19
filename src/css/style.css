@@ -269,11 +269,6 @@ main{
 
 }   
 
-.img-4{
-    border-radius: 8vh 0vh 0vh 0vh;
-    box-shadow: rgba(0, 0, 0, 1) 0px -50px 36px -28px inset;
-}   
-
 .card-2{
     width: 70vh;
     height: 210px;
@@ -282,6 +277,32 @@ main{
     margin-left: 200px;
     box-sizing: border-box;
     border-radius: 0vh 0vh 15vh 0vh;
+}
+
+.card-3{
+    width: 70vh;
+    height: 200px;
+    position: relative;
+    margin-left: 225px;
+    box-sizing: border-box;
+    border-radius: 8vh 0vh 0vh 0vh;
+    background-color: #bb1724;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px -50px 36px -28px inset;
+
+}   
+
+.card-4{
+    width: 70vh;
+    height: 210px;
+    position: relative;
+    background-color: #bb1724;
+    margin-left: 225px;
+    box-sizing: border-box;
+    border-radius: 0vh 0vh 15vh 0vh;
+}
+
+.img-4{
+    border-radius: 8vh 0vh 0vh 0vh;
 }
 
 
@@ -348,6 +369,8 @@ main{
     justify-content: space-between;
     align-items: center;
     margin: 20px;
+    background-color: white;
+    
 }
 
 .promo-header h1 {
