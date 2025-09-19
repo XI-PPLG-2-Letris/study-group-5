@@ -239,8 +239,6 @@ header nav button{
     cursor: pointer;
 }
 
-
-
 .div-1{
     display: flex;
 }
@@ -302,7 +300,7 @@ header nav button{
     display: block;
     margin-top: 50px;
     justify-content: center;
-    align-items:end;
+    align-items: end;
     width: 25%;
     background-color: linear-gradient(180deg, #f8f9fb 60%, #fff);
     margin-left: 25vh;
@@ -432,7 +430,14 @@ main{
     width: 100%;
     height: inherit;
     background-color: rgb(248, 248, 248);
-    border-radius: 10vh 0vh 0vh 0vh;
+    border-radius: 11vh 0vh 0vh 0vh;
+}
+
+.mainn{
+    width: 100%;
+    height: inherit;
+    background-color:white;
+    border-radius: 11vh 0vh 0vh 0vh;
 }
 
 main h1{
@@ -440,8 +445,7 @@ main h1{
     font-size: 30px;
     justify-content: center;
     align-items: center;
-    padding-top: 30px;
-    
+    padding-top: 15vh;
     font-weight: bold;
 }
 
@@ -455,7 +459,7 @@ main nav ul li{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 30px;
     gap: 30px;
 }
 
@@ -472,12 +476,20 @@ main nav ul li a:hover{
     color: #bb1724;
 }
 
+
 .textbox{
     display: flex;
-    padding-top: 30px;
+    padding-top: 50px;
     gap: 20px;
     justify-content: center;
     align-items: center;
+}
+
+.textbox1{
+    display: flex;
+    padding-top: 50px;
+    gap: 20px;
+    padding-left: 30.5vh;
 }
 
 .card-5{
@@ -489,11 +501,11 @@ main nav ul li a:hover{
     background-color: #fff;
     border-radius: 5vh 0vh 5vh 0vh;
     box-shadow: rgba(130, 157, 165, 0.1) 0px 8px 24px;
+    cursor: pointer;
 }
 
 .card-5 img{
     display: block;
-   
     width: 84px;
 }
 
@@ -504,4 +516,147 @@ main nav ul li a:hover{
     font-size: small;
     padding-top: 20px;
 }
+
+.product{
+    display: flex;
+    justify-content: right;
+}
+
+.img-8{
+    width: 350px;
+}
     
+.bawah{
+    width: 100%;
+    background: #005da6 url(/study-group-5/asset/img/member.png) no-repeat 0;
+    height: 450px;
+    background-size: cover;
+    border-radius: 13vh 0 0 0;
+    transition: all .5s ease-in-out;
+}
+
+.h1-atas{
+    margin-top: 150px;
+}
+
+.satu{
+    margin-left: 110px;
+}
+
+.undian-section {
+  max-width: 500px;
+  margin-top: 30px;
+  padding-bottom: 200px;
+}
+
+.undian-section p{
+    margin-bottom: 5px;
+}
+
+.undian-label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.undian-select {
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 16px;
+  border: 1px solid #3f3f3f;
+  border-radius: 8px;
+  appearance: none;
+  background: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>") no-repeat right 10px center;
+  background-color: white;
+  background-size: 16px 16px;
+  margin-bottom: 20px;
+}
+
+.undian-button {
+  background-color: #004aad;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.undian-button:hover {
+  background-color: #003b8b;
+}
+.main-trakhir .satu .undian-section h1{
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.main-trakhir{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.undian-section .program{
+    font-weight: 600;
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+    background-color: #bb1724;
+    color: #ffffff;
+}
+
+footer .alfa ul{
+    display: flex;
+}
+
+footer .alfa h1{
+    font-weight: bold;
+}
+footer .alfa2 h1{
+     font-weight: bold;
+}
+footer .alfa2 p{
+    color: #cccbcb;
+}
+
+footer .alfa3  input[type="text"] {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background: #b71c1c;          /* merah seperti contoh */
+    color: #fff;                  /* teks putih */
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    width: 220px;
+    font-size: 16px;
+  }
+
+  footer .alfa3 input::placeholder {
+    color: rgba(255,255,255,0.6);  /* placeholder abu-abu muda */
+  }
+
+  footer .alfa3 button {
+    border: none;
+    outline: none;
+    background: #fdd835;           /* kuning seperti contoh */
+    color: #000;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    font-size: 18px;
+  }
+  
+   footer .alfa3 ul {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+  }
