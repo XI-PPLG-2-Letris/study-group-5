@@ -216,7 +216,7 @@ header nav button{
    display: block;
    margin: 20px;     
    font-size: 1.9vh;
-   transition: color 0.6s ease, transform 0.6s ease; /* animasi halus */
+   transition: color 0.6s ease, transform 0.6s ease; 
 }
 
 
@@ -224,7 +224,7 @@ header nav button{
     display: block;
     margin: 20px;
     font-size: 1.8vh;
-    transition: color 0.6s ease, transform 0.6s ease; /* animasi halus */
+    transition: color 0.6s ease, transform 0.6s ease; 
 }
 
 #item-a:hover{
@@ -431,7 +431,7 @@ header nav button{
 main{
     width: 100%;
     height: inherit;
-    background-color: aliceblue;
+    background-color: rgb(248, 248, 248);
     border-radius: 10vh 0vh 0vh 0vh;
 }
 
@@ -441,7 +441,7 @@ main h1{
     justify-content: center;
     align-items: center;
     padding-top: 30px;
-    font-family: sans-serif;
+    
     font-weight: bold;
 }
 
@@ -460,8 +460,48 @@ main nav ul li{
 }
 
 main nav ul li a{
+    font-size: 14px;
     color: #9ca7b2;
     gap: 35px;
-    font-weight: bold;
+    transition: color 0.6s ease, transform 0.6s ease;
+   
+}
+
+main nav ul li a:hover{
+    transition: all .5s ease-in-out;
+    color: #bb1724;
+}
+
+.textbox{
+    display: flex;
+    padding-top: 30px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 5vh 0vh 5vh 0vh;
+    box-shadow: rgba(130, 157, 165, 0.1) 0px 8px 24px;
+}
+
+.card-5 img{
+    display: block;
+   
+    width: 84px;
+}
+
+.y li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    padding-top: 20px;
 }
     
