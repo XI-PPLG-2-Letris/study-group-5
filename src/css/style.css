@@ -336,6 +336,13 @@ main{
     background-color: #bb1724;
 }
 
+
+.bg{
+    width: 100%;
+    background-color: white;
+    height: 100px;  
+}
+
 .promo-header {
       display: flex;
       justify-content: space-between;
@@ -346,6 +353,12 @@ main{
     .promo-header h1 {
       font-size: 24px;
       margin: 0;
+      padding: 40px;
+      margin-left: 209px;
+      font-size: 30px;
+      font-weight: bold;
+      color: rgb(76, 76, 76) ;
+      font-family: sans-serif;
     }
 
     .promo-header button {
@@ -355,6 +368,10 @@ main{
       padding: 8px 16px;
       border-radius: 6px;
       cursor: pointer;
+      margin-right: 200px;
+      border-radius: 2vh 0vh 2vh 0vh;
+      font-weight: bold;
+      height: 45px;
     }
 
     .promo-header button:hover {
@@ -366,21 +383,13 @@ main{
       gap: 16px;
       overflow-x: auto;
       padding: 20px;
-      scroll-behavior: smooth;
       background-color: white;
     }
 
-    .promo-scroll::-webkit-scrollbar {
-      height: 8px;
-    }
-    .promo-scroll::-webkit-scrollbar-thumb {
-      background: #ccc;
-      border-radius: 4px;
-    }
-
+    
     .promo-item {
       flex: 0 0 auto;
-      width: 220px;
+      width: 300px;
       border-radius: 12px;
       overflow: hidden;
     }
