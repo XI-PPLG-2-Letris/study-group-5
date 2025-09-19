@@ -332,8 +332,8 @@ main{
 
 .kotak{
     width: 100%;
-    height: 150px;
-    background-color: #bb1724;
+    height: 100px;
+    background-color: #ffffff;
 }
 
 
@@ -344,59 +344,68 @@ main{
 }
 
 .promo-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.promo-header h1 {
+    font-size: 24px;
+    margin: 0;
+    padding: 40px;
+    margin-left: 150px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(76, 76, 76) ;
+    font-family: sans-serif;
     }
 
-    .promo-header h1 {
-      font-size: 24px;
-      margin: 0;
-      padding: 40px;
-      margin-left: 209px;
-      font-size: 30px;
-      font-weight: bold;
-      color: rgb(76, 76, 76) ;
-      font-family: sans-serif;
-    }
+.promo-header button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 200px;
+    border-radius: 2vh 0vh 2vh 0vh; 
+    height: 45px;
+}
 
-    .promo-header button {
-      background-color: #0056b3;
-      color: white;
-      border: none;
-      padding: 8px 16px;
-      border-radius: 6px;
-      cursor: pointer;
-      margin-right: 200px;
-      border-radius: 2vh 0vh 2vh 0vh;
-      font-weight: bold;
-      height: 45px;
-    }
+.promo-header button:hover {
+    background-color: #003d80;
+}
 
-    .promo-header button:hover {
-      background-color: #003d80;
-    }
+.promo-scroll {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    padding: 20px;
+    background-color: white;
+}
 
-    .promo-scroll {
-      display: flex;
-      gap: 16px;
-      overflow-x: auto;
-      padding: 20px;
-      background-color: white;
-    }
+.promo-scroll2{
+    display: flex;
+    margin-left: 25vh;
+}
 
     
-    .promo-item {
-      flex: 0 0 auto;
-      width: 300px;
-      border-radius: 12px;
-      overflow: hidden;
-    }
+.promo-item {
+    flex: 0 0 auto;
+    width: 280px;
+    border-radius: 12px;
+    overflow: hidden;
+      
+}
+    
 
-    .promo-item img {
-      width: 100%;
-      height: auto;
-      border-radius: 12px;
-      display: block;
-    }
+.promo-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+      
+}
+    
