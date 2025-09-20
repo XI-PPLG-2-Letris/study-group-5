@@ -10,8 +10,6 @@
 
 *{
     font-family: 'Poppins';
-    margin: 0;
-    padding:0;
 }
 
 body{
@@ -26,7 +24,6 @@ header{
     height: 67px;
     display: flex;
     background-color: #bb1724;  
-    
 }
 
 .header-fixed{
@@ -130,7 +127,6 @@ header nav button{
     background-color: #ffffff;
     box-shadow: black;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    border-bottom: .75rem solid #ffc604;
 }
 
 .header2 img{
@@ -351,91 +347,6 @@ header nav button{
     background-color: #ffffff;
 }
 
-.gambar img{
-    border-bottom: .75rem solid #ffc604;
-    border-radius: 0vh 0vh 15vh 0vh;
-}
-
-.bg{
-    width: 100%;
-    background-color: white;
-    height: 120px;  
-}
-
-.promo-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 20px;
-    background-color: white;
-    
-}
-
-.promo-header h1 {
-    font-size: 24px;
-    margin: 0;
-    padding: 40px;
-    margin-left: 150px;
-    font-size: 30px;
-    font-weight: bold;
-    color: rgb(76, 76, 76) ;
-    font-family: sans-serif;
-    }
-
-.promo-header button {
-    background-color: #0056b3;
-    color: white;
-    border: none;
-    padding: 8px 16px;
-    border-radius: 6px;
-    cursor: pointer;
-    margin-right: 200px;
-    border-radius: 2vh 0vh 2vh 0vh; 
-    height: 45px;
-}
-
-.promo-header button:hover {
-    background-color: #003d80;
-}
-
-.promo-scroll {
-    display: flex;
-    gap: 16px;
-    overflow-x: auto;
-    scrollbar-width: none;
-    padding: 20px;
-    background-color: white;
-}
-
-.promo-scroll2{
-    display: flex;
-    margin-left: 25vh;
-    margin-bottom: 50px
-}
-
-    
-.promo-item {
-    flex: 0 0 auto;
-    width: 280px;
-    border-radius: 12px;
-    overflow: hidden;
-}
-    
-
-.promo-item img {
-    width: 100%;
-    height: auto;
-    border-radius: 12px;
-    display: block;
-      
-}
-
-main{
-    width: 100%;
-    height: inherit;
-    background-color: rgb(248, 248, 248);
-    border-radius: 11vh 0vh 0vh 0vh;
-}
 
 .mainn{
     width: 100%;
@@ -463,7 +374,8 @@ main nav ul li{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 20px;
+  
     gap: 30px;
 }
 
@@ -483,7 +395,7 @@ main nav ul li a:hover{
 
 .textbox{
     display: flex;
-    padding-top: 50px;
+    padding-top: 20px;
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -491,21 +403,28 @@ main nav ul li a:hover{
 
 .textbox1{
     display: flex;
-    padding-top: 50px;
+    padding-top: 20px;
     gap: 20px;
     padding-left: 30.5vh;
+}
+
+.padding{
+    padding-bottom: 20vh;
 }
 
 .card-5{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 160px;
-    height: 150px;
-    background-color: #fff;
-    border-radius: 5vh 0vh 5vh 0vh;
+    width: 360px;
+    height: 350px;
+    background-color: #000000;
+    border-radius: 0vh 0vh 6vh 0vh;
     box-shadow: rgba(130, 157, 165, 0.1) 0px 8px 24px;
     cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    
 }
 
 .card-5 img{
@@ -513,201 +432,9 @@ main nav ul li a:hover{
     width: 84px;
 }
 
-.y li{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: small;
-    padding-top: 20px;
-}
 
-.product{
-    display: flex;
-    justify-content: right;
-}
+/* //////// */
 
-.img-8{
-    width: 350px;
-}
-    
-.bawah{
-    width: 100%;
-    background: #005da6 url(/study-group-5/asset/img/member.png) no-repeat 0;
-    height: 450px;
-    background-size: cover;
-    border-radius: 13vh 0 0 0;
-    transition: all .5s ease-in-out;
-    display: flex;
-    align-items: center;
-    color: white;
-    justify-content: space-around;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.bawah h1{
-    font-weight: bolder; 
-    font-size: 4vh;
-}
-.bawah .dua {
-    width: 35%;
-}
-.bawah button{
-    background-color: white;
-    color: #003b8b;
-    font-size: large;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 10px 0px 10px 0px;
-}
-.h1-atas{
-    margin-top: 150px;
-}
-
-.satu{
-    margin-left: 110px;
-}
-
-.undian-section {
-  max-width: 500px;
-  margin-top: 30px;
-  padding-bottom: 200px;
-}
-
-.undian-section p{
-    margin-bottom: 5px;
-}
-
-.undian-label {
-  display: block;
-  font-weight: 600;
-  margin-bottom: 6px;
-  font-size: 14px;
-}
-
-.undian-select {
-  width: 100%;
-  padding: 12px 14px;
-  font-size: 16px;
-  border: 1px solid #3f3f3f;
-  border-radius: 8px;
-  appearance: none;
-  background: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>") no-repeat right 10px center;
-  background-color: white;
-  background-size: 16px 16px;
-  margin-bottom: 20px;
-}
-
-.undian-button {
-  background-color: #004aad;
-  color: white;
-  padding: 12px 24px;
-  border-radius: 6px;
-  font-size: 16px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background 0.2s;
-}
-
-.undian-button:hover {
-  background-color: #003b8b;
-}
-.main-trakhir .satu .undian-section h1{
-  font-weight: bold;
-  font-size: xx-large;
-}
-
-.main-trakhir{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.undian-section .program{
-    font-weight: 600;
-}
-
-.iyakk .gak .iyaps{
-    border-radius: 120px 0px 120px 0px;
-    /* height: 650px; */
-   
-}
-
-.iyakk{
-    display: flex;
-    width: 100%;
-}
-
-.kedua {
-    
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    /* justify-content: center; */
-    width: 100%;
-    height: 450px;
-    padding-top: 70px ;
-    padding-left: 60px ;
-    background-color: #b71c1c;
-    color: white;
-    border-radius:0 0 90px 0px ;
-     border-bottom: 15px #ffc604 solid ;
-} 
-.kedua .isian button{
-    color: white;
-    background-color: rgb(119, 1, 1);
-    padding: 10px 23px 10px 23px;
-    border-radius: 20px 0px 20px 0px;
-}
-.kedua h1{
-        font-size: 35px;
-      font-family: 'Arial Narrow', Arial, sans-serif;
-      font-weight: bolder;
-}
-.iyakk .dip {
-    
-}
-.kedua .kosongan{
-    height: 600px;
-    padding-top: 100px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-.iyakk .gak{
-    height: 1200px;
-    width: 80%;
-}
-.kedua .kosongan img{
-    margin-top: 185px;
-    height: 650px;
-  
-}
-.gak .dip{
-    flex-wrap: nowrap;
-  
-    flex-direction: column;
-    width: 100%;
-    height: 200px;
-    margin-top: 150px;
-    margin-left: 20%;
-}
-.gak .dip h1{
-    font-weight: bold;
-    font-size: 30px;
-}
-.ba a img{
- width: 147px;
- height: 50px;   
-}
-.ba{
-    width: 100%;
-    display: flex;
-
-}
-.ba a{
-    margin-left: 10px;
-}
 footer{
     display: flex;
     justify-content: space-around;
@@ -765,3 +492,10 @@ footer .alfa3  input[type="text"] {
     align-items: center;
 
   }
+
+  /* https://alfamart.co.id/storage/page/September2025/tkiW3o2lvyXcvgxXKLoo.jpg */
+  /* https://alfamart.co.id/storage/page/August2025/OONG2fjYjl9jIAclCOII.jpeg */
+  /* https://alfamart.co.id/storage/page/August2025/KV987nBYtO5HkW3VaqKp.jpeg */
+  /* https://alfamart.co.id/storage/page/July2025/4QXiJoMHY9uLABo3lgD0.jpeg */
+  /* https://alfamart.co.id/storage/page/July2025/45Y1gcSVNBop5zVmVf9y.jpeg */
+  /* https://alfamart.co.id/storage/page/July2025/M71KfTGPiq9QW05pnjvJ.JPG */
