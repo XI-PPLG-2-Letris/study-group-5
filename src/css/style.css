@@ -533,8 +533,30 @@ main nav ul li a:hover{
     background-size: cover;
     border-radius: 13vh 0 0 0;
     transition: all .5s ease-in-out;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
+.bawah h1{
+    font-weight: bolder; 
+    font-size: 4vh;
+}
+.bawah .dua {
+    width: 35%;
+}
+.bawah button{
+    background-color: white;
+    color: #003b8b;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px 0px 10px 0px;
+}
 .h1-atas{
     margin-top: 150px;
 }
