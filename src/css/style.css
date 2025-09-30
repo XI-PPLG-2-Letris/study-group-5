@@ -15,15 +15,26 @@
 body{
    margin: 0;
    padding: 0;
-   background-color: rgb(255, 255, 255);
+   background-color: aliceblue;
+<<<<<<< HEAD
+}
+
+.header-fixed{
+    position: fixed;
+     width: 100%;
+}
+
+=======
    font-family: 'Poppins';
 }
 
+>>>>>>> Galangg
 header{
     width: 100%;
     height: 67px;
     display: flex;
     background-color: #bb1724;  
+    
 }
 
 .header-fixed{
@@ -127,6 +138,7 @@ header nav button{
     background-color: #ffffff;
     box-shadow: black;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-bottom: .75rem solid #ffc604;
 }
 
 .header2 img{
