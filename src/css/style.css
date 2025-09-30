@@ -10,12 +10,14 @@
 
 *{
     font-family: 'Poppins';
+    margin: 0;
+    padding:0;
 }
 
 body{
    margin: 0;
    padding: 0;
-   background-color: aliceblue;
+   background-color: rgb(255, 255, 255);
    font-family: 'Poppins';
 }
 
@@ -625,6 +627,85 @@ main nav ul li a:hover{
     font-weight: 600;
 }
 
+.iyakk .gak .iyaps{
+    border-radius: 120px 0px 120px 0px;
+    /* height: 650px; */
+   
+}
+
+.iyakk{
+    display: flex;
+    width: 100%;
+}
+
+.kedua {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    /* justify-content: center; */
+    width: 100%;
+    height: 450px;
+    padding-top: 70px ;
+    padding-left: 60px ;
+    background-color: #b71c1c;
+    color: white;
+    border-radius:0 0 90px 0px ;
+     border-bottom: 15px #ffc604 solid ;
+} 
+.kedua .isian button{
+    color: white;
+    background-color: rgb(119, 1, 1);
+    padding: 10px 23px 10px 23px;
+    border-radius: 20px 0px 20px 0px;
+}
+.kedua h1{
+        font-size: 35px;
+      font-family: 'Arial Narrow', Arial, sans-serif;
+      font-weight: bolder;
+}
+
+.kedua .kosongan{
+    height: 600px;
+    padding-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.iyakk .gak{
+    height: 1200px;
+    width: 80%;
+}
+.kedua .kosongan img{
+    margin-top: 185px;
+    height: 650px;
+  
+}
+.gak .dip{
+    flex-wrap: nowrap;
+  
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    margin-top: 150px;
+    margin-left: 20%;
+}
+.gak .dip h1{
+    font-weight: bold;
+    font-size: 30px;
+}
+.ba a img{
+ width: 147px;
+ height: 50px;   
+}
+.ba{
+    width: 100%;
+    display: flex;
+
+}
+.ba a{
+    margin-left: 10px;
+}
 footer{
     display: flex;
     justify-content: space-around;
